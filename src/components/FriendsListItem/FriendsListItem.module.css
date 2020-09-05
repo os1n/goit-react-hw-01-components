@@ -1,0 +1,39 @@
+.item {
+  background-color: #fff;
+  width: 250px;
+  height: auto;
+  border: solid 1px grey;
+  margin: 5px 5px 5px 5px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 2px 2px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  vertical-align: center;
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    margin: 20px 5px 5px 5px;
+    border-radius: 50%;
+}
+
+.available {
+    background-color: green;
+}
+.notAvailable {
+    background-color: red;
+}
+
+.avatar {
+  padding: 0;
+  margin: 5px 5px 5px 5px;
+  border-radius: 20%;
+}
+
+.name {
+  font-size: large;
+  font-weight: bold;
+}
